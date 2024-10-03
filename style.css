@@ -1,6 +1,7 @@
 :root{
   --color1:rgb(2, 21, 38);
   --color2:rgb(3, 52, 110);
+  --color2v:rgb(0, 48, 104);
   --color3:rgb(110, 172, 218);
   --color4:rgb(226, 226, 182);
 }
@@ -101,12 +102,10 @@ li{
   grid-row:1/2;
   display:flex;
   justify-content:space-between;
-  padding:10px 20px;
+  align-items:center;
+  padding:0 10px;
 }
 
-.topmenu div{
-  padding:10px 20px;
- }
 .topmenu li{
   align-content:center
  }
@@ -152,7 +151,40 @@ li{
   align-self:center;
  }
 
+ .topmenu button{
+   height:5px;
+ }
+ .fa{
+   font-size:2px;
+   height:1px;
+   cursor:pointer;
+ }
+.searchmenu{
+  padding:0;
+}
 
 
+/* Style the submit button */
+form.search button {
+  width: 20%;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+.topmenu button {
+  float: left;
+  width: 100%;
+  background-color: var(--color2);
+  color: white;
+  border: 1px solid var(--color2);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
 
-
+ form.search input[type=text] {
+  border: 1px none;
+  float: left;
+  width: 80%;
+  height:50%;
+  background:var(--color2v) 
+  color:white;
+}
