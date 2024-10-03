@@ -55,6 +55,10 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+li{
+  list-style-type: none;
+}
+
 .container{
   display:grid;
   grid-template-columns: 30% auto;
