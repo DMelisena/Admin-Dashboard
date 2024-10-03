@@ -9,9 +9,7 @@
 }
 
 body{
-  /*
-  background-color:rgb(17 54 39);
-  */
+  background-color:white;
   color:white;
 }
 /*
@@ -89,7 +87,7 @@ li{
   padding:30px;
   display:flex;
   flex-flow:column;
-  gap:40px;
+  gap:30px;
   height:100vh;
 }
 
@@ -110,8 +108,13 @@ li{
    font-weight:700;
  }
 
- .menus ul{
+ .menus li,
+ .setups li{
    font-size:18px;
+ }
+
+ .sidebar li{
+   padding-left:20px;
  }
 
 /*}}}*/
@@ -229,7 +232,21 @@ form.search button {
 
 .dashboard{
   display:grid;
-  grid-template-columns: 80% 20%;
-  grid-template-rows: ;
+  grid-template-columns: max(1fr,600px) 400px; ;
+  grid-template-rows: 1fr 1fr;
+}
+
+.your-project{
+  grid-column:1/2;
+}
+
+.announcements{
+  grid-column:2/3;
+  grid-row:1/2;
+}
+
+.trending{
+  grid-column:2/3;
+  grid-row:2/3;
 }
 
