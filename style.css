@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(17 24 39);
+  background-color:rgb(17 54 39);
   color:white;
 }
 /*
@@ -55,19 +55,32 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+ul{
+  padding:0;
+}
 li{
   list-style-type: none;
 }
 
 .container{
   display:grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 20% auto;
+  height:100vh;
 }
 
 .sidebar{
+  background-color:rgb(17 24 39);
   grid-column:1/2;
+  padding:30px;
+  display:flex;
+  flex-flow:column;
+  gap:40px;
+  height:100vh;
+
 }
 .non-sidebar{
   grid-column:2/3;
   background-color:black;
 }
+
+
