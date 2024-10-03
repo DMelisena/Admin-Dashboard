@@ -55,3 +55,15 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+.container{
+  display:grid;
+  grid-template-columns: 30% auto;
+}
+
+.sidebar{
+  grid-column:1/2;
+}
+.non-sidebar{
+  grid-column:2/3;
+  background-color:black;
+}
