@@ -233,9 +233,10 @@ form.search button {
 }
 /*}}}*/
 
+/*dashboard{{{*/
 .dashboard{
   display:grid;
-  grid-template-columns: max(1fr,600px) 400px; ;
+  grid-template-columns: max(1fr,600px) 300px; ;
   grid-template-rows: 1fr 1fr;
   padding:20px;
   gap:20px;
@@ -277,3 +278,15 @@ form.search button {
 .card .title {
   font-size: 18px;
 }
+/*}}}*/
+.announcements{
+  grid-row:1/2;
+  grid-column:2/3;
+}
+.trending{
+  grid-row:2/3;
+  grid-column:2/3;
+  background-color: white;
+}
+
+
