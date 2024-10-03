@@ -80,7 +80,7 @@ li{
 /*main+sidebar{{{*/
 .container{
   display:grid;
-  grid-template-columns: max(160px,20%) auto;
+  grid-template-columns: max(200px,20%) auto;
   height:100vh;
 }
 
@@ -100,7 +100,6 @@ li{
 .non-sidebar{
   grid-column:2/3;
   background-color:var(--color1);
-  display:grid;
   grid-template-rows:50px auto 1fr;
   gap:0;
 }
@@ -147,6 +146,7 @@ form.search button {
 }
 /*}}}*/
 
+/*mainmenu{{{*/
 .mainmenu{
   background-color:var(--color2);
   grid-row:2/3;
@@ -199,4 +199,4 @@ form.search button {
 .searchmenu{
   padding:0;
 }
-
+/*}}}*/
