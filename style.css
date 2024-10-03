@@ -236,7 +236,7 @@ form.search button {
 /*dashboard{{{*/
 .dashboard{
   display:grid;
-  grid-template-columns: max(1fr,600px) 300px; ;
+  grid-template-columns: auto max(220px);
   grid-template-rows: 1fr 1fr;
   padding:20px;
   gap:20px;
