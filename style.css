@@ -5,6 +5,8 @@
   --color2v:rgb(0, 48, 104);
   --color3:rgb(110, 172, 218);
   --color4:rgb(226, 226, 182);
+  --color5:rgb(0, 128, 128);
+  --color6:rgb(64, 224, 208);
    font-family: Helvetica;
 }
 
@@ -210,6 +212,8 @@ form.search button {
   height:25px;
   align-self:center;
   align-items:center;
+  /*color:var(--color2);*/
+  color:white;
   background:var(--color3);
   border-radius:10px;
   
