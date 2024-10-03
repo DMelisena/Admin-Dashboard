@@ -1,5 +1,13 @@
+:root{
+  --color1:rgb(2, 21, 38);
+  --color2:rgb(3, 52, 110);
+  --color3:rgb(110, 172, 218);
+  --color4:rgb(226, 226, 182);
+}
 body{
+  /*
   background-color:rgb(17 54 39);
+  */
   color:white;
 }
 /*
@@ -59,7 +67,7 @@ ul{
   padding:0;
 }
 li{
-  list-style-type: none;
+ list-style-type: none;
 }
 
 .container{
@@ -69,7 +77,8 @@ li{
 }
 
 .sidebar{
-  background-color:rgb(17 24 39);
+  /*background-color:rgb(17 24 39);*/
+  background-color:var(--color3);
   grid-column:1/2;
   padding:30px;
   display:flex;
@@ -80,21 +89,19 @@ li{
 }
 .non-sidebar{
   grid-column:2/3;
-  background-color:black;
+  background-color:var(--color1);
   display:grid;
   grid-template-rows:50px auto 1fr;
+  gap:0;
 }
 
-.non-sidebar>.topmenu{
-  background-color:darkblue;
-
- }
 .topmenu{
-  background-color:darkblue;
+  background-color:var(--color2);
   height:40px;
   grid-row:1/2;
   display:flex;
   justify-content:space-between;
+  padding:10px 20px;
 }
 
 .topmenu div{
@@ -105,6 +112,7 @@ li{
  }
 
 .mainmenu{
+  background-color:var(--color2);
   grid-row:2/3;
   display:grid;
   grid-template-columns: 20px auto repeat(3,min(60px));
