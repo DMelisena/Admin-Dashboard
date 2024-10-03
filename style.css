@@ -226,3 +226,10 @@ form.search button {
   padding:0;
 }
 /*}}}*/
+
+.dashboard{
+  display:grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: ;
+}
+
