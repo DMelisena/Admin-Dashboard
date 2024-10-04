@@ -235,11 +235,13 @@ form.search button {
 
 /*dashboard{{{*/
 .dashboard{
+  padding:15px;
   display:grid;
   grid-template-columns: auto max(220px);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto
   padding:20px;
-  gap:20px;
+  gap:30px;
+
 }
 
 .your-project{
@@ -279,14 +281,28 @@ form.search button {
   font-size: 18px;
 }
 /*}}}*/
-.announcements{
+
+.announce-bar{
   grid-row:1/2;
   grid-column:2/3;
 }
+
 .trending{
   grid-row:2/3;
   grid-column:2/3;
-  background-color: white;
+  background-color: black;
 }
+
+.announcements{
+  display:grid;
+  grid-template-rows: repeat(3, minmax(30px));
+  gap:15px;
+}
+
+.announce{
+  padding:4px;
+  background-color: var(--color2);
+}
+
 
 
