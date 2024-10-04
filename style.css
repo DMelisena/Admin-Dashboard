@@ -262,6 +262,10 @@ form.search button {
 /*}}}*/
 
 /*dashboardmain{{{*/
+.title{
+  font-size:20px;
+  padding:5px 0;
+}
 .dashboard{
   padding:15px;
   display:grid;
@@ -303,16 +307,13 @@ form.search button {
   grid-column:2/3;
   display:grid;
   gap:80px;
-  grid-template-rows: repeat(2,max(10%,270px)) auto;
+  grid-template-rows: repeat(2,max(10%,340px)) auto;
   /*background-color: #fff;*/
 }
 
 .announce-bar,
 .trending-bar{
   /*background-color: red;*/
-}
-.announce-bar>.announcements{
-  gap:50px;
 }
 
 .announce{
@@ -336,6 +337,9 @@ form.search button {
   padding:10px;
   background-color: var(--color2);
 }
+.announce-bar>.announcements{
+  padding:0 10px 20px;
+ }
 
 .accounts{
  display:grid;
