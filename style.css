@@ -181,6 +181,18 @@ form.search button {
   height:50%;
   background:var(--color2v);
   color:white;
+  align-content:center;
+}
+ .topmenu button{
+   height:5px;
+ }
+ .fa{
+   font-size:2px;
+   height:1px;
+   cursor:pointer;
+ }
+.searchmenu{
+  padding:0;
 }
 /*}}}*/
 
@@ -234,17 +246,6 @@ form.search button {
   width:50px
  }
 
- .topmenu button{
-   height:5px;
- }
- .fa{
-   font-size:2px;
-   height:1px;
-   cursor:pointer;
- }
-.searchmenu{
-  padding:0;
-}
 /*}}}*/
 
 /*dashboardmain{{{*/
