@@ -236,7 +236,7 @@ form.search button {
 .dashboard{
   padding:15px;
   display:grid;
-  grid-template-columns: auto 240px;
+  grid-template-columns: auto 280px;
   padding:20px;
   gap:20px;
 }
@@ -273,26 +273,23 @@ form.search button {
 #side-db{
   background-color: lightgrey;
   grid-column:2/3;
-  gap:10px;
   display:grid;
-  margin:10px;
   padding:10px;
+  gap:10px;
+  grid-template-rows: repeat(2,400px);
 }
 
 .announce-bar,
 .trending-bar{
   padding:10px;
-  grid-row:2/3;
 }
 
 .announce-bar{
   grid-row:1/2;
   background-color: purple;
-  height:500px;
 }
 .trending-bar{
   grid-row:2/3;
   background-color: red;
-  height:500px;
 
 }
