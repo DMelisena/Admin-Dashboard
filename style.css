@@ -234,6 +234,7 @@ form.search button {
 }
 /*}}}*/
 
+/*dashboardmain{{{*/
 .dashboard{
   padding:15px;
   display:grid;
@@ -246,7 +247,6 @@ form.search button {
   grid-column:1/2;
 }
 
-/*articles card {{{*/
 .article{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -271,7 +271,8 @@ form.search button {
 }
 /*}}}*/
 
-#side-db{
+/*side dashboard{{{*/
+.side-dashboard{
   grid-column:2/3;
   display:grid;
   padding:10px;
@@ -282,7 +283,6 @@ form.search button {
 .announce-bar,
 .trending-bar{
   padding:10px;
-
 }
 
 .announce-bar{
@@ -297,9 +297,9 @@ form.search button {
   background-color: var(--color2);
  }
 
-
 .trending-bar>.trend-accounts,
 .announce-bar>.announcements{
   padding:10px;
   background-color: var(--color2);
 }
+/*}}}*/
