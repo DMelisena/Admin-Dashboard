@@ -275,14 +275,14 @@ form.search button {
 .side-dashboard{
   grid-column:2/3;
   display:grid;
-  padding:10px;
-  gap:100px;
-  grid-template-rows: repeat(2,max(10%,350px)) auto;
+  gap:80px;
+  grid-template-rows: repeat(2,max(10%,270px)) auto;
+  /*background-color: #fff;*/
 }
 
 .announce-bar,
 .trending-bar{
-  padding:10px;
+  /*background-color: red;*/
 }
 
 .announce-bar{
@@ -308,7 +308,7 @@ form.search button {
  * 2. Fix Button on mainmenu
  * 3. stylize the uls on dashboard
  * 4. add comment love and bookmark logo on cards
- * 5. realign the "announcements" so that it's inline with "your projects"
+
  * 6. create a line border between announcements
  * 7. Add logo on trending accounts
  */
