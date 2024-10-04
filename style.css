@@ -311,7 +311,14 @@ form.search button {
 .trending-bar{
   /*background-color: red;*/
 }
+.announce-bar>.announcements{
+  gap:50px;
+}
 
+.announce{
+  padding-top:4px;
+ border-top: 2px solid var(--color1);
+ }
 .announce-bar{
   grid-row:1/2;
 }
