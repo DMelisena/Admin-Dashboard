@@ -302,6 +302,10 @@ form.search button {
 }
 /*}}}*/
 
+.title{
+  font-weight:2000;
+}
+
 /*side dashboard{{{*/
 .side-dashboard{
   grid-column:2/3;
@@ -367,6 +371,7 @@ form.search button {
   grid-column:2/3;
 }
 /*}}}*/
+
 /* TODO:
  * 1. Add profile picture on mainmenu and topmenu
  * 2. Fix Button on mainmenu
